@@ -1,60 +1,47 @@
-# Hello, I'm Enrique! 👋 
+# Hi, I'm Enrique 👋
 
-## Where Quality Meets Intelligence 🧠✨
+**Senior QA Engineer at [Elastic](https://www.elastic.co), on the Kibana Security Solution team.**
 
-![Banner](https://img.shields.io/badge/QA-AI-blue?style=for-the-badge) ![Automation](https://img.shields.io/badge/Automation-Enthusiast-orange?style=for-the-badge) ![GenAI](https://img.shields.io/badge/GenAI-Explorer-green?style=for-the-badge)
+I spend most of my time figuring out how to test software that doesn't give the same answer twice: AI agents, LLM-powered features, and the tooling developers use to build them.
 
-> *"Automating the boring stuff so humans can do the exciting stuff!"*
+Before Elastic I was a university professor teaching software quality, project management and software engineering, so I still can't resist turning a good bug into a lesson.
 
-## About Me 🚀
+## 🔍 What I work on
 
-I'm a tech enthusiast and full stack developer passionate about bridging the gap between Quality Assurance and Artificial Intelligence. My mission? To make software better, faster, and smarter through intelligent automation!
+- **AI evaluation:** contributing to [`@kbn/evals`](https://github.com/elastic/kibana), building golden-set evaluations and getting evals into CI for security product teams
+- **Adversarial testing:** red-teaming AI agents with prompt injection, instruction override and other ways of making them misbehave
+- **Developer enablement:** helping ~10 product teams get more out of AI coding assistants (Claude Code, Codex) through skills, plugins, evals and shared workflows
+- **Test automation:** moving Kibana's Cypress suites to [Scout](https://github.com/elastic/kibana) (Playwright)
 
-Currently, I'm helping test and validate AI Assistants for Security and GenAI solutions, turning science fiction into production-ready tools that solve real problems.
+## 🛠️ Side projects
 
-## Tech Stack 🛠️
+Most of these are about **MCP and AI agent security**, plus tools I build for my own workflow:
 
-### Languages
-```
-Python | TypeScript | Ruby | Golang | Elixir
-```
+| Project | What it does | Status |
+|---|---|---|
+| **Vigil** | Runtime tripwire for Claude Code. Detects MCP tools and skills that change or turn malicious (rug pulls, prompt injection, credential-stealing scripts) | 🚧 In progress |
+| **DevTrace** | MCP observability proxy that sends agent traces to Elasticsearch/Kibana using OTel GenAI conventions | 🚧 In progress |
+| **mcpscan** | Layered security scanner for MCP servers, mapped to the OWASP LLM Top 10 | 🧪 Concept |
+| **logsift** | Rust CLI that makes sense of noisy CI logs | ✅ |
+| **chaos-reviewer** | Adversarial PR review agent written in Go (hackathon project) | ✅ |
+| **ccrig** | CLI for A/B testing Claude Code configuration profiles | ✅ |
 
-### AI & ML Technologies
-```
-🔗 LangChain | 📊 LangGraph | ☁️ AWS Bedrock | 🧠 Azure OpenAI | 🤖 OpenAI | 📚 RAG
-```
+## 🧰 Tools I reach for
 
-## What I Do 🔍
+**Languages:** TypeScript · Python · Rust · Go
+**Testing & evals:** Playwright · Cypress · promptfoo · `@kbn/evals`
+**Platform:** Elasticsearch · Kibana · OpenTelemetry
+**AI tooling:** MCP · Claude Code · Codex
 
-- 🤖 Build and optimize chatbots that actually understand what humans want
-- 🧪 Develop QA automation frameworks powered by AI
-- 🔄 Create productivity tools that save teams countless hours
-- 🔎 Validate AI solutions for Security applications
-- 🧩 Implement RAG (Retrieval-Augmented Generation) systems for knowledge-intensive tasks
+## 💬 Let's talk
 
-## Current Adventures 🌟
+I'm happy to talk about evaluating LLM features, testing AI agents, MCP security, or how to make AI coding assistants useful to a whole team and not only to one enthusiastic developer.
 
-I'm currently exploring the fascinating intersection of:
-
-- 🕵️‍♂️ AI-powered security assistants
-- 🧠 Large Language Models for automated testing
-- 🔄 Continuous improvement pipelines with AI feedback loops
-- 🚀 Prompt engineering for optimal AI performance
-
-## Let's Connect! 💬
-
-Whether you want to talk about the latest in GenAI, debate the best testing strategies, or just geek out about automating everything possible (and some things that seem impossible), I'm always up for a good tech conversation!
-
-*Feel free to reach out through your preferred channel!*
+📍 Near Madrid, Spain · [LinkedIn](https://www.linkedin.com/in/YOUR-HANDLE)
 
 ---
 
-⚡ Fun fact: The best bugs are the ones you never had to fix because your AI caught them first!
-
 ```python
-while not world_automated:
-    learn_new_tech()
-    build_cool_stuff()
-    share_knowledge()
+while agent.is_nondeterministic():
+    write_another_eval()
 ```
-
